@@ -1,0 +1,140 @@
+.container3 {
+  height: 59.1vw;
+  width: 70%;
+}
+.blockcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.loremwblockcont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 52vw;
+}
+.baslik2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2vw;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 4vw;
+
+  text-transform: uppercase;
+  color: white;
+}
+.enustmenu-container {
+  width: 100%;
+  height: 7vw;
+  background-color: #e5e5e5;
+}
+.enustmenu {
+  width: 100%;
+  height: 7vw;
+  display: flex;
+  gap: 63vw;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1vw;
+}
+.blocknotelogo {
+  width: 13vw;
+  margin-left: 1vw;
+}
+.cnwallet {
+  width: 10vw;
+  margin-bottom: 0.3vw;
+  margin-left: -11vw;
+}
+.enustmenu-alt-container {
+  width: 100%;
+  height: 2vw;
+  border-bottom: solid 0.1vw;
+  border-top: solid 0.1vw;
+  border-color: #929292;
+  background-color: #e5e5e5;
+}
+.body {
+  width: 100%;
+  background-color: #e5e5e5;
+  height: 42vw;
+  display: flex;
+}
+.en-sol {
+  width: 4%;
+  height: 42vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: solid 0.1vw;
+  border-color: #0fc2f2;
+}
+.ppisim {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 1vw;
+
+  color: #233447;
+}
+.icons {
+  width: 100%;
+  height: auto;
+  margin-top: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vw;
+}
+.alticons {
+  width: 100%;
+  height: auto;
+  margin-top: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+}
+.en-sol-1 {
+  width: 32%;
+  height: 42vw;
+  border-right: solid 0.1vw;
+  border-color: #929292;
+}
+.inputbutton {
+  display: inline-block;
+  position: relative;
+}
+.input {
+  background-color: #e5e5e5;
+  width: 99%;
+  border-color: #e5e5e5;
+  border-bottom: solid 0.1vw #929292;
+}
+.buttonpen {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: absolute;
+  bottom: 5vw;
+  right: 1vw;
+}
+.en-sag-1 {
+  width: 32%;
+  height: 42vw;
+  border-right: solid 0.1vw;
+  border-color: #929292;
+}
+.en-sag {
+  width: 32%;
+  height: 42vw;
+}

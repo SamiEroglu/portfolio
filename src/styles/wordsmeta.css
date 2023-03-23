@@ -1,0 +1,29 @@
+.wmyazi {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2vw;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 4vw;
+
+  text-transform: uppercase;
+
+  color: #77bfbc;
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.wwcont {
+  height: 35vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.gallerywidth {
+  width: 70%;
+}

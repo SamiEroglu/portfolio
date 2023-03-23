@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
+
+.yanmenu-nav {
+  position: fixed;
+  bottom: 0vw;
+  margin-right: -3.28vw;
+  right: 0vw;
+  z-index: 3;
+  transform: scaleX(-1);
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+}
+.yanmenu-nav li {
+  height: 3vw;
+  position: relative;
+}
+.yanmenu-nav li a {
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 3vw;
+  padding-left: 80%;
+  transition: ease-in 0.7s;
+  border-top-right-radius: 0.7vw;
+}
+.yanmenu-nav li:hover:nth-child(1) a {
+  background: #4267b2;
+}
+.yanmenu-nav li:hover:nth-child(2) a {
+  background: #1da1f2;
+}
+.yanmenu-nav li:hover:nth-child(3) a {
+  background: #833ab4;
+}
+.yanmenu-nav li:hover:nth-child(4) a {
+  background: #333;
+}
+.yanmenu-nav li:hover:nth-child(5) a {
+  background: #ff0000;
+}
+.yanmenu-nav li:hover:nth-child(6) a {
+  background: #7289da;
+}
+.yanmenu-nav li a i {
+  position: absolute;
+  left: 2vw;
+  font-size: 1.5vw;
+  padding-top: 0.2vw;
+  transform: scaleX(-1);
+}
+.yanmenu-ul li a span {
+  display: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: scaleX(-1);
+}
+
+.yanmenu-ul li a:hover span {
+  display: block;
+}

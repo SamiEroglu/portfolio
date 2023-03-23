@@ -1,0 +1,114 @@
+.nftcont {
+  height: 105vw;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.nftcontwlorem {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nfts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 2vw rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.158);
+}
+.nfts1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 2vw rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.158);
+}
+
+.nft1 {
+  width: 17.7vw;
+  height: 30.28vw;
+  pointer-events: none;
+}
+.baslik {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2vw;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 4vw;
+
+  text-transform: uppercase;
+
+  color: rgba(246, 207, 77, 0.9);
+}
+.m-scrolll {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 7vw;
+  margin: auto;
+  overflow: hidden;
+  z-index: 1;
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  background-color: rgba(25, 29, 31, 0.7);
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.sliding-text {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  transform: scale(2);
+  transition: all 1s ease;
+}
+
+.sliding-text > div {
+  display: flex;
+  animation: scrollText 33s infinite linear;
+}
+
+.sliding-text > h1 {
+  margin: 0;
+  font-size: 140px;
+  color: rgba(255, 255, 255, 1);
+  transition: all 1s ease;
+}
+
+.sliding-text > a {
+  text-decoration: none;
+  color: white;
+}
+
+.sliding-text > a:hover {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+/*div:hover {
+    animation-play-state: paused;
+  }*/
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-15%);
+  }
+}
+#root .nav {
+  display: none;
+}

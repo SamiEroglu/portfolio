@@ -1,0 +1,137 @@
+.footercontainer {
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(221, 154, 80);
+}
+.footerust {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 75%;
+}
+.footerust-sol {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5vw;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 4vw;
+}
+.benkimim {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2.7vw;
+}
+.footerbenkimim {
+  width: 60%;
+  height: 70%;
+  font-size: 1.1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footerust-orta {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 0.9vw;
+  padding-left: 2vw;
+}
+.footerustorta-ust {
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-right: 13.5vw;
+
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5vw;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footerustorta-alt {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 1vw;
+}
+.footerustorta-alt a {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2vw;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footerust-sag {
+  padding-top: 0.8vw;
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 0vw;
+}
+.footerustsag-ust {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-right: 11.5vw;
+
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5vw;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footerustsag-alt {
+  margin-top: -2vw;
+  margin-left: -16vw;
+}
+.footeralt {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+}
+.footeralt-sol {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 3vw;
+}
+.footeralt-sag {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-right: 14.4vw;
+
+  font-family: "Jura";
+  font-style: normal;
+  font-size: 1vw;
+  line-height: 1vw;
+
+  color: white;
+}

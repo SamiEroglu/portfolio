@@ -1,0 +1,39 @@
+.n3c4container {
+  width: 100%;
+  height: 50vw;
+}
+.baslik6 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2vw;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 4vw;
+
+  text-transform: uppercase;
+
+  color: white;
+}
+.n3c4com {
+  width: 100%;
+  height: 45vw;
+}
+.n3c4iframecont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lorem {
+  width: 25%;
+
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 1.5vw;
+  color: white;
+}

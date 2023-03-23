@@ -1,0 +1,17 @@
+.container2 {
+  height: 10vw;
+}
+.baslik1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2vw;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 4vw;
+
+  text-transform: uppercase;
+  color: #3e04df;
+}
